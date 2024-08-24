@@ -1,0 +1,3 @@
+fastapi[standard] == 0.112.1
+supabase == 2.7.3
+python-dotenv == 1.0.1
