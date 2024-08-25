@@ -2,7 +2,7 @@ from typing import Union
 from fastapi import FastAPI
 import os
 from supabase import create_client, Client
-from supabase_usage import create_supabase_client
+from supabase_functions import create_supabase_client
 
 
 client = create_supabase_client()
