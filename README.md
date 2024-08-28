@@ -1,4 +1,11 @@
-# To Do List
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=vscode,py,fastapi,supabase,git" />
+  </a>
+</p>
+
+
+# 🚀 To Do List
 
 A app "To Do List".
 The proyect contemplate a creation of DB in Supabase, then a creation of API with FastAPI for query.
@@ -15,16 +22,16 @@ using diferents queries un web explorer, we can consult the list and the task st
 - [Python-env](#.env)
 
 
-## Python:
+## Python   ![My Skills](https://skillicons.dev/icons?i=py)
 
 A lenguaje for the API programming in VSCode.
 
 
-## FastAPI
+## FastAPI   ![My Skills](https://skillicons.dev/icons?i=fastapi)
 
 Technologie to create a API
 
-## Supabase 
+## Supabase   ![My Skills](https://skillicons.dev/icons?i=supabase)
 
 Database used
 
