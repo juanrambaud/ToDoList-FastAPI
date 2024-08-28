@@ -13,21 +13,22 @@ def create_supabase_client():
     return supabase
 
 
-#login
+#?login
 #user = supabase.auth.sign_up({ "email": "jmrambaud88@gmail.com", "password": "Juansupabase1!" })
 #print(user)
 
-#query
+#?query
 #data = supabase.table("ToDoList").select("*").execute()
 #print("que traje:")
 #print(data)
 #data = client.table("ToDoList").select("*").order("id", desc=False).execute()
+#data = client.table("ToDoList").select("*").eq("stage", stage_id).order("id", desc=False).execute()
 
-#insert
+#?insert
 #data = supabase.table("ToDoList").insert({"learn":"PostgreSQL", "stage":"To Do", "comment":"Database noSQL"}).execute()
 
-#update
+#?update
 #data = supabase.table("ToDoList").update({"stage":"Doing"}).eq("id", 1).execute()
 
-#delete
+#?delete 
 #data = supabase.table("ToDoList").delete().eq("id", 17).execute()
