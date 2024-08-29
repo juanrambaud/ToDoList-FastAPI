@@ -46,7 +46,7 @@ For last copy and past our API KEYs into a .env file
 ![Captura de pantalla 2024-08-28 200118](https://github.com/user-attachments/assets/d41312c0-b1be-445a-b140-4330d3775da4)
 
 
-## .env
+## .env ⚙️
 
 Python-env for use a creation of "enviroment variables" for use KEY in a supabase DB. :warning:
 
