@@ -22,12 +22,12 @@ using diferents queries un web explorer, we can consult the list and the task st
 - [Python-env](#.env)
 
 
-## Python   [![My Skills](https://skillicons.dev/icons?i=py)](https://www.python.org/)
+##Python   [![My Skills](https://skillicons.dev/icons?i=py)](https://www.python.org/)
 
 A lenguaje for the API programming in VSCode.
 
 
-## FastAPI   [![My Skills](https://skillicons.dev/icons?i=fastapi)](https://fastapi.tiangolo.com/)
+##FastAPI   [![My Skills](https://skillicons.dev/icons?i=fastapi)](https://fastapi.tiangolo.com/)
 
 Technologie to create a API
 
