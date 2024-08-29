@@ -27,11 +27,11 @@ using diferents queries un web explorer, we can consult the list and the task st
 A lenguaje for the API programming in VSCode.
 
 
-## FastAPI   ![My Skills](https://skillicons.dev/icons?i=fastapi)
+## FastAPI   [![My Skills](https://skillicons.dev/icons?i=fastapi)](https://fastapi.tiangolo.com/)
 
 Technologie to create a API
 
-## Supabase   ![My Skills](https://skillicons.dev/icons?i=supabase)
+## Supabase   [![My Skills](https://skillicons.dev/icons?i=supabase)](https://supabase.com/)
 
 Creation of type a DB with some task
 
