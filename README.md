@@ -1,4 +1,11 @@
-# To Do List
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=vscode,py,fastapi,supabase,git" />
+  </a>
+</p>
+
+
+# 🚀 To Do List
 
 A app "To Do List".
 The proyect contemplate a creation of DB in Supabase, then a creation of API with FastAPI for query.
@@ -15,19 +22,33 @@ using diferents queries un web explorer, we can consult the list and the task st
 - [Python-env](#.env)
 
 
-## Python:
+## Python   [![My Skills](https://skillicons.dev/icons?i=py)](https://www.python.org/)
 
 A lenguaje for the API programming in VSCode.
 
 
-## FastAPI
+## FastAPI   [![My Skills](https://skillicons.dev/icons?i=fastapi)](https://fastapi.tiangolo.com/)
 
 Technologie to create a API
 
-## Supabase 
+## Supabase   [![My Skills](https://skillicons.dev/icons?i=supabase)](https://supabase.com/)
 
-Database used
+Creation of type a DB with some task
 
-## .env
+![Captura de pantalla 2024-08-28 195853](https://github.com/user-attachments/assets/3de94071-1a8b-4faf-b0bf-19345762b0a9)
 
-Python-env for use a creation of "enviroment variables" for use KEY in a supabase DB.
+Then Created and enabling policies from DB because if this is not the case, nothing can be done from the API. :triangular_flag_on_post:
+
+![Captura de pantalla 2024-08-28 195923](https://github.com/user-attachments/assets/74e6f3b0-1531-447d-bef1-ec9dac1c0bb5)
+
+For last copy and past our API KEYs into a .env file
+
+![Captura de pantalla 2024-08-28 200118](https://github.com/user-attachments/assets/d41312c0-b1be-445a-b140-4330d3775da4)
+
+
+## .env ⚙️
+
+Python-env for use a creation of "enviroment variables" for use KEY in a supabase DB. :warning:
+
+![Captura de pantalla 2024-08-28 210215](https://github.com/user-attachments/assets/e191b37b-6fed-4a72-88fb-1f125be52e8f)
+
