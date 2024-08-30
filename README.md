@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=vscode,py,fastapi,supabase,git" />
+  <a href="https://github.com/juanrambaud">
+    <img src="https://skillicons.dev/icons?i=vscode,py,fastapi,supabase,docker,git" />
   </a>
 </p>
 
@@ -20,6 +20,7 @@ using diferents queries un web explorer, we can consult the list and the task st
 - [FastAPI](#FastAPI)
 - [Supabase](#Supabase)
 - [Python-env](#.env)
+- [Docker](#docker)
 
 
 ## Python   [![My Skills](https://skillicons.dev/icons?i=py)](https://www.python.org/)
@@ -51,4 +52,6 @@ For last copy and past our API KEYs into a .env file
 Python-env for use a creation of "enviroment variables" for use KEY in a supabase DB. :warning:
 
 ![Captura de pantalla 2024-08-28 210215](https://github.com/user-attachments/assets/e191b37b-6fed-4a72-88fb-1f125be52e8f)
+
+## Docker   [![My Skills](https://skillicons.dev/icons?i=docker)](https://www.docker.com/)
 
