@@ -21,6 +21,7 @@ using diferents queries un web explorer, we can consult the list and the task st
 - [Supabase](#supabase)
 - [Python-env](#python-env)
 - [Docker](#docker)
+- [License](#license)
 
 
 ## Python   
