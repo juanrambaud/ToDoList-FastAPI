@@ -16,10 +16,10 @@ using diferents queries un web explorer, we can consult the list and the task st
 
 ## Proyect technologies used:
 
-- [Python](#Python)
-- [FastAPI](#FastAPI)
-- [Supabase](#Supabase)
-- [Python-env](#.env)
+- [Python](#python)
+- [FastAPI](#fastapi)
+- [Supabase](#supabase)
+- [Python-env](#python-env)
 - [Docker](#docker)
 
 
@@ -47,7 +47,7 @@ For last copy and past our API KEYs into a .env file
 ![Captura de pantalla 2024-08-28 200118](https://github.com/user-attachments/assets/d41312c0-b1be-445a-b140-4330d3775da4)
 
 
-## .env ⚙️
+## Python-env ⚙️
 
 Python-env for use a creation of "enviroment variables" for use KEY in a supabase DB. :warning:
 
