@@ -22,19 +22,19 @@ using diferents queries un web explorer, we can consult the list and the task st
 - [Python-env](#python-env)
 - [Docker](#docker)
 
-[![My Skills](https://skillicons.dev/icons?i=py)](https://www.python.org/)
+
 ## Python   
 
-A lenguaje for the API programming in VSCode.
+[![My Skills](https://skillicons.dev/icons?i=py)](https://www.python.org/) A lenguaje for the API programming in VSCode.
 
 
-## FastAPI   [![My Skills](https://skillicons.dev/icons?i=fastapi)](https://fastapi.tiangolo.com/)
+## FastAPI  
 
-Technologie to create a API
+[![My Skills](https://skillicons.dev/icons?i=fastapi)](https://fastapi.tiangolo.com/) Technologie to create a API
 
-## Supabase   [![My Skills](https://skillicons.dev/icons?i=supabase)](https://supabase.com/)
+## Supabase   
 
-Creation of type a DB with some task
+[![My Skills](https://skillicons.dev/icons?i=supabase)](https://supabase.com/) Creation of type a DB with some task
 
 ![Captura de pantalla 2024-08-28 195853](https://github.com/user-attachments/assets/3de94071-1a8b-4faf-b0bf-19345762b0a9)
 
@@ -47,11 +47,29 @@ For last copy and past our API KEYs into a .env file
 ![Captura de pantalla 2024-08-28 200118](https://github.com/user-attachments/assets/d41312c0-b1be-445a-b140-4330d3775da4)
 
 
-## Python-env ⚙️
-
-Python-env for use a creation of "enviroment variables" for use KEY in a supabase DB. :warning:
+## Python-env 
+⚙️ Python-env for use a creation of "enviroment variables" for use KEY in a supabase DB. :warning:
 
 ![Captura de pantalla 2024-08-28 210215](https://github.com/user-attachments/assets/e191b37b-6fed-4a72-88fb-1f125be52e8f)
 
-## Docker   [![My Skills](https://skillicons.dev/icons?i=docker)](https://www.docker.com/)
+## Docker   
+
+[![My Skills](https://skillicons.dev/icons?i=docker)](https://www.docker.com/) I created a docker image and found in the same repository. Then push to docker hub.
+
+For Last i deploy the image in [Render.com](https://render.com/) and check if the API works.
+
+Using directly a web browser.
+
+![Captura de pantalla 2024-08-30 194946](https://github.com/user-attachments/assets/53b46f51-a2ee-41a0-a421-cdbe6a927a9a)
+
+
+Using a thunder client on VSCode.
+
+![Captura de pantalla 2024-08-30 195004](https://github.com/user-attachments/assets/91cf9cda-5e0c-4b2f-b586-88a2e79378de)
+
+
+
+
+
+
 
