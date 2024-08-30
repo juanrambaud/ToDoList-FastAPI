@@ -22,8 +22,8 @@ using diferents queries un web explorer, we can consult the list and the task st
 - [Python-env](#python-env)
 - [Docker](#docker)
 
-
-## Python   [![My Skills](https://skillicons.dev/icons?i=py)](https://www.python.org/)
+[![My Skills](https://skillicons.dev/icons?i=py)](https://www.python.org/)
+## Python   
 
 A lenguaje for the API programming in VSCode.
 
