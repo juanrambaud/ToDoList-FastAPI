@@ -68,6 +68,11 @@ Using a thunder client on VSCode.
 ![Captura de pantalla 2024-08-30 195004](https://github.com/user-attachments/assets/91cf9cda-5e0c-4b2f-b586-88a2e79378de)
 
 
+## License
+
+Distributed under the MIT License. See `LICENSE.md` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
