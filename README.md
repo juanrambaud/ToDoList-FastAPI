@@ -55,7 +55,50 @@ For last copy and past our API KEYs into a .env file
 
 ## Docker   
 
-[![My Skills](https://skillicons.dev/icons?i=docker)](https://www.docker.com/) I created a docker image and found in the same repository. Then push to docker hub.
+[![My Skills](https://skillicons.dev/icons?i=docker)](https://www.docker.com/) I created a docker image in the same repository for APP. Then create a .dockerignore for files to ignore in the docker image.
+
+1. Build image
+```sh
+docker build -t <DOCKER_USERNAME>/<APP_NAME> .
+```
+2. To verify the image exists locally, you can use the "docker image ls" command:
+```sh
+docker image ls
+```
+
+Terminal return
+```sh
+REPOSITORY                          TAG       IMAGE ID       CREATED          SIZE
+<DOCKER_USERNAME>/<APP_NAME>        latest    1543656c9290   1 minute ago     1.12GB
+...
+```
+
+Before to push the image, i check if working fine in Docker Desktop, to ensure the image it's create correctly and work in local.
+
+![Captura de pantalla 2024-09-01 163438](https://github.com/user-attachments/assets/f9009c70-609c-4476-81b6-fb25aea52ba2)
+
+Then create a container, included enviroments variables for supabase.
+![Captura de pantalla 2024-09-01 163451](https://github.com/user-attachments/assets/ef4ff72f-166b-455c-80a6-917e183b4aad)
+
+Then check in logs if it's work localy
+![Captura de pantalla 2024-09-01 164428](https://github.com/user-attachments/assets/96b02a41-32e7-40db-a0de-3a89b8fc997b)
+![Captura de pantalla 2024-09-01 164741](https://github.com/user-attachments/assets/2ad2c59d-0cef-4112-a728-6e4c12af689d)
+
+
+4. To push the image, use the docker push command. Be sure to replace DOCKER_USERNAME with your username:
+```sh
+docker push <DOCKER_USERNAME>/<APP_NAME> .
+```
+![Captura de pantalla 2024-09-01 163757](https://github.com/user-attachments/assets/017d661f-dc26-4472-89c5-865a849bd396)
+
+
+
+
+
+
+
+
+
 
 For Last i deploy the image in [Render.com](https://render.com/) and check if the API works.
 
