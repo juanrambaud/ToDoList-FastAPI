@@ -18,8 +18,8 @@ using diferents queries un web explorer, we can consult the list and the task st
 
 - [Python](#python)
 - [FastAPI](#fastapi)
-- [Supabase](#supabase)
 - [Python-env](#python-env)
+- [Supabase](#supabase)
 - [Docker](#docker)
 - [Deploy](#deploy)
 - [License](#license)
@@ -50,6 +50,20 @@ This tutorial it's not to explain how FastApi work, it's only implement this tec
 &nbsp;
 &nbsp;
 
+
+## Python-env 
+⚙️ Python-env for use a creation of "enviroment variables" for use KEY in a supabase DB. :warning:
+&nbsp;
+
+You need to create a .env file in the proyect folder and add the variables (copy your variables from SUPABASE. In Proyects Settings/API)
+&nbsp;
+&nbsp;
+
+![Captura de pantalla 2024-08-28 210215](https://github.com/user-attachments/assets/e191b37b-6fed-4a72-88fb-1f125be52e8f)
+&nbsp;
+&nbsp;
+
+
 ## Supabase   
 
 [![My Skills](https://skillicons.dev/icons?i=supabase)](https://supabase.com/) Creation of type a DB with some task
@@ -68,7 +82,7 @@ Then Created and enabling policies from DB because if this is not the case, noth
 &nbsp;
 &nbsp;
 
-For last copy and past our API KEYs into a .env file
+For last copy and past our API KEYs into a .env file. The variables are in "Proyects Settings" / "API"
 &nbsp;
 &nbsp;
 
@@ -76,14 +90,6 @@ For last copy and past our API KEYs into a .env file
 &nbsp;
 &nbsp;
 
-## Python-env 
-⚙️ Python-env for use a creation of "enviroment variables" for use KEY in a supabase DB. :warning:
-&nbsp;
-&nbsp;
-
-![Captura de pantalla 2024-08-28 210215](https://github.com/user-attachments/assets/e191b37b-6fed-4a72-88fb-1f125be52e8f)
-&nbsp;
-&nbsp;
 
 ## Docker   
 
