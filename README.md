@@ -35,6 +35,21 @@ using diferents queries un web explorer, we can consult the list and the task st
 
 [![My Skills](https://skillicons.dev/icons?i=fastapi)](https://fastapi.tiangolo.com/) Technologie to create a API
 
+This tutorial it's not to explain how FastApi work, it's only implement this technologie. To resume in the code are a series HTTP methods: GET, POST, PUT and DELTE to create a task, update and delete. Plus, it's  posible get a list of total task or get a list by type of task (To Do, Doing and Done). 
+
+- Create a task: include a NAME, by default the STAGE it's To Do, a COMMENT, and optional DATE. By default, in SUPABASE adding a ID of task and TIMESTAMP in case that you not complete date.
+- Update a task: change the stage of, only by your ID.
+- Detele task: select an ID and delete.
+- Get List: select complete list or list by STAGE type.
+  
+&nbsp;
+&nbsp;
+
+![Captura de pantalla 2024-09-11 150959](https://github.com/user-attachments/assets/fab59662-97c6-4e6a-8e6f-44181fc66306)
+
+&nbsp;
+&nbsp;
+
 ## Supabase   
 
 [![My Skills](https://skillicons.dev/icons?i=supabase)](https://supabase.com/) Creation of type a DB with some task
