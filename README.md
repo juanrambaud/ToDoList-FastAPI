@@ -7,16 +7,16 @@
 
 # 🚀 To Do List
 
-A app "To Do List".
-The proyect contemplate a creation of DB in Supabase, then a creation of API with FastAPI for query.
-The API consist in a list of task, wich can created, updated and deleted, usign the "stages" in task, for example "To Do".
-The List it's storage in a supabse DB and access by the API created in FastAPI
+An app "To Do List".
+The project contemplates the creation of a DB in Supabase, then the creation of an API using FastAPI.
+The API consists in a list of tasks, wich can be created, updated and deleted, usign their `stage` property, for example "To Do".
+The list of tasks is stored in a Supabse DB and accessed by the API created in FastAPI.
 
-Using diferents queries in web explorer, we can consult the list and the task stage.
+Using different queries in a web browser, we can consult the list and the task's stage.
 
-:triangular_flag_on_post: Actually the API it's suspended for traffic, but you can create your ouw API. :triangular_flag_on_post:	
+:triangular_flag_on_post: Actually the API is not public, but you can create your own API. :triangular_flag_on_post:	
 
-## Proyect technologies used:
+## Project technologies used:
 
 - [Python](#python)
 - [FastAPI](#fastapi)
@@ -30,19 +30,19 @@ Using diferents queries in web explorer, we can consult the list and the task st
 
 ## Python   
 
-[![My Skills](https://skillicons.dev/icons?i=py)](https://www.python.org/) A lenguaje for the API programming in VSCode.
+[![My Skills](https://skillicons.dev/icons?i=py)](https://www.python.org/) The API is written in Python and I used VSCode as my IDE.
 
 
 ## FastAPI  
 
-[![My Skills](https://skillicons.dev/icons?i=fastapi)](https://fastapi.tiangolo.com/) Technologie to create a API
+[![My Skills](https://skillicons.dev/icons?i=fastapi)](https://fastapi.tiangolo.com/) Framework to create the API.
 
-This tutorial it's not to explain how FastApi work, it's only implement this technologie. To resume in the code are a series HTTP methods: GET, POST, PUT and DELTE to create a task, update and delete. Plus, it's  posible get a list of total task or get a list by type of task (To Do, Doing and Done). 
+This tutorial is not intended to explain how FastApi works, it's only to sample an implementation of this framework. In a nutshell, there are a series of HTTP methods: GET, POST, PUT and DELETE to create, update and delete a task. Plus, it's possible to get a list of tasks or to list by stage (e.g. **To Do**, **Doing** and **Done**). 
 
-- Create a task: include a NAME, by default the STAGE it's To Do, a COMMENT, and optional DATE. By default, in SUPABASE adding a ID of task and TIMESTAMP in case that you not complete date.
-- Update a task: change the stage of, only by your ID.
-- Detele task: select an ID and delete.
-- Get List: select complete list or list by STAGE type.
+- Create a task: include a NAME, by default its stage is **To Do**; then a COMMENT, and optionally DATE. By default, `in Supabase adding a ID of task and TIMESTAMP in case that you not complete date` <- esto quiere decir que Supabase le agrega el ID por defecto?.
+- Update a task: change the stage of a task, using its ID.
+- Detele task: select an ID and delete the task.
+- Get list: retrieve a full list of tasks or filter by stage.
   
 &nbsp;
 &nbsp;
@@ -54,10 +54,10 @@ This tutorial it's not to explain how FastApi work, it's only implement this tec
 
 
 ## Python-env 
-⚙️ Python-env for use a creation of "enviroment variables" for use KEY in a supabase DB. :warning:
+⚙️ Python-env `for use a creation of "enviroment variables" for use KEY in a supabase DB.` <- no entendi esto, puede ser algo como `to create all environment variables for the Supabase DB.` quizas? :warning:
 &nbsp;
 
-You need to create a .env file in the proyect folder and add the variables (copy your variables from SUPABASE. In Proyects Settings/API)
+You need to create an `.env` file in the project folder and add the variables (copy your variables from Supabase. In Projects Settings/API)
 &nbsp;
 &nbsp;
 
@@ -68,7 +68,7 @@ You need to create a .env file in the proyect folder and add the variables (copy
 
 ## Supabase   
 
-[![My Skills](https://skillicons.dev/icons?i=supabase)](https://supabase.com/) Creation of type a DB with some task
+[![My Skills](https://skillicons.dev/icons?i=supabase)](https://supabase.com/) To create a DB and store some tasks
 &nbsp;
 &nbsp;
 
@@ -76,7 +76,7 @@ You need to create a .env file in the proyect folder and add the variables (copy
 &nbsp;
 &nbsp;
 
-Then Created and enabling policies from DB because if this is not the case, nothing can be done from the API. :triangular_flag_on_post:
+Then create and enable policies from DB, otherwise nothing can be done from the API. :triangular_flag_on_post:
 &nbsp;
 &nbsp;
 
@@ -84,7 +84,7 @@ Then Created and enabling policies from DB because if this is not the case, noth
 &nbsp;
 &nbsp;
 
-For last copy and past our API KEYs into a .env file. The variables are in "Proyects Settings" / "API"
+Lastly copy and paste your API KEYs into an `.env` file. The variables are in "Projects Settings" / "API"
 &nbsp;
 &nbsp;
 
@@ -95,7 +95,7 @@ For last copy and past our API KEYs into a .env file. The variables are in "Proy
 
 ## Docker   
 
-[![My Skills](https://skillicons.dev/icons?i=docker)](https://www.docker.com/) I created a docker image in the same repository for APP. Then create a .dockerignore for files to ignore in the docker image.
+[![My Skills](https://skillicons.dev/icons?i=docker)](https://www.docker.com/) I created a Docker image in the same repository to run this API. Then created a `.dockerignore` to avoid adding unwanted/secret files to the final image.
 
 1. Build image
 ```sh
@@ -106,14 +106,14 @@ docker build -t <DOCKER_USERNAME>/<APP_NAME> .
 docker image ls
 ```
 
-Terminal return
+Terminal returns
 ```sh
 REPOSITORY                          TAG       IMAGE ID       CREATED          SIZE
 <DOCKER_USERNAME>/<APP_NAME>        latest    1543656c9290   1 minute ago     1.12GB
 ...
 ```
 
-Before to push the image, i check if working fine in Docker Desktop, to ensure the image it's create correctly and work in local.
+Before pushing the image, I check if it works fine in my Docker Desktop, to ensure the image is created correctly and runs in local.
 &nbsp;
 &nbsp;
 
@@ -121,7 +121,7 @@ Before to push the image, i check if working fine in Docker Desktop, to ensure t
 &nbsp;
 &nbsp;
 
-Then create a container, included enviroments variables for supabase.
+Then create a container, including the required enviroments variables for Supabase.
 &nbsp;
 &nbsp;
 
@@ -129,7 +129,7 @@ Then create a container, included enviroments variables for supabase.
 &nbsp;
 &nbsp;
 
-Then check in logs if it's work localy
+Then check in logs if it works locally
 &nbsp;
 &nbsp;
 
@@ -142,7 +142,7 @@ Then check in logs if it's work localy
 &nbsp;
 
 
-4. To push the image, use the docker push command. Be sure to replace DOCKER_USERNAME with your username:
+4. To push the image, use the `docker push` command. Be sure to replace DOCKER_USERNAME with your username:
 ```sh
 docker push <DOCKER_USERNAME>/<APP_NAME> .
 ```
@@ -155,11 +155,11 @@ docker push <DOCKER_USERNAME>/<APP_NAME> .
 
 
 ## Deploy
-For Last i deploy the image in [Render.com](https://render.com/) and check if the API works.
+Lastly, I deploy the image in [Render.com](https://render.com/) and check if the API works.
 &nbsp;
 &nbsp;
 
-1. First select a NEW/Web Services. In options i use existingimage using mi Dockerimage created
+1. First select a NEW/Web Services. In options I use existing image using mi Docker image
 &nbsp;
 &nbsp;
 
@@ -172,11 +172,11 @@ For Last i deploy the image in [Render.com](https://render.com/) and check if th
 &nbsp;
 
 ![Captura de pantalla 2024-09-01 165627](https://github.com/user-attachments/assets/38ef36e4-b2d4-4a88-80ad-58a7cc2cf445)
-IMPORTANT: ADD variable KEY=PORT and VALUE=8000. This is for expose this port and 8000 it's the value default for FastAPI.
+IMPORTANT: ADD variables `KEY=PORT` and `VALUE=8000`. This is to expose port 8000, which is the default for FastAPI.
 &nbsp;
 &nbsp;
 
-4. Check in log it's API are deploy.
+4. Check in log if API is deployed.
 &nbsp;
 &nbsp;
 
@@ -184,7 +184,7 @@ IMPORTANT: ADD variable KEY=PORT and VALUE=8000. This is for expose this port an
 &nbsp;
 &nbsp;
 
-5. Check in web.\
+5. Check in a web browser.\
 &nbsp;
 &nbsp;
 
